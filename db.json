@@ -1,25 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed hard drive on workstation 005",
-      "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam Smith"
+      "message": "New cpu to workstation 004",
+      "tech": "John Doe",
+      "attention": true,
+      "date": "2020-02-15T15:00:52.170Z",
+      "id": 1
     },
     {
       "id": 2,
-      "message": "Workstation 007 not posting",
+      "message": "New cpu still requested to workstation 004",
+      "tech": "Sara Wilson",
       "attention": true,
-      "date": "03-02-2019",
-      "tech": "John Doe"
-    },
-    {
-      "id": 3,
-      "message": "Changed memory on workstation 050",
-      "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sara Wilson"
+      "date": "2020-02-15T16:06:14.989Z"
     }
   ],
   "techs": [
@@ -42,6 +35,11 @@
       "id": 4,
       "firstName": "Rogerio",
       "lastName": "Melo"
+    },
+    {
+      "firstName": "Jill",
+      "lastName": "Valentine",
+      "id": 6
     }
   ]
 }

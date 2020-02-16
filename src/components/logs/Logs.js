@@ -19,7 +19,7 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
                 <h4 className='center'>System logs</h4>
             </li>
             {!loading && logs.length === 0 ? (
-                <p>No logs to show...</p>
+                <p className='center'>No logs to show...</p>
             ) : (
                 logs.map(log => <LogItem key={log.id} log={log} />)
             )}
